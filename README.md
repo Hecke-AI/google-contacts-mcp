@@ -19,7 +19,7 @@ A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that in
 
 This MCP server was built to solve a real problem: contact database cleanup. Over 20 years of professional work, my Google Contacts had accumulated:
 
-- Old military contacts from Iraq deployments (2005-2011)
+- Old conference contacts from events a decade ago
 - Defunct service vendors (taxi services, contractors)
 - Duplicate entries with formatting issues
 - Personal contacts mixed with professional ones
@@ -94,25 +94,25 @@ npm run build
 
 ### Search for a contact
 ```
-You: "Search for contacts named Charlie"
+You: "Search for contacts named Sarah"
 Claude: [uses search_contacts tool]
 Found 2 contacts:
-- Charlie Nickerson (charlie@example.com)
-- Charlie Lehan (clehan@mitre.org)
+- Sarah Johnson (sarah.johnson@example.com)
+- Sarah Martinez (smartinez@techcorp.com)
 ```
 
 ### Create a new contact
 ```
-You: "Add a contact for Ulrik Frandsen, press adviser at IDA, email ufr@ida.dk, phone 23 65 09 69"
+You: "Add a contact for Hans Mueller, senior engineer at SwissTech, email h.mueller@swisstech.ch, phone +41 44 123 4567"
 Claude: [uses create_contact tool]
-Contact created successfully for Ulrik Frandsen.
+Contact created successfully for Hans Mueller.
 ```
 
 ### Delete obsolete contacts
 ```
-You: "Delete all contacts from my old Iraq deployment"
+You: "Delete all contacts from the 2015 conference in Berlin"
 Claude: [searches, confirms, then uses delete_contact for each]
-Deleted 15 contacts from Iraq-era military list.
+Deleted 12 contacts from the conference attendee list.
 ```
 
 ## Educational Value
