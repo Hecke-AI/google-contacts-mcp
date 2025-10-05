@@ -1,0 +1,22 @@
+{
+  "name": "google-contacts-mcp",
+  "version": "1.0.0",
+  "description": "Custom Google Contacts MCP Server",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "gaxios": "^7.1.2",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^144.0.0",
+    "open": "^7.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
