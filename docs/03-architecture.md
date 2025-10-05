@@ -401,9 +401,9 @@ const matches = connections
 [
   {
     "resourceName": "people/c1234567890",
-    "displayName": "Charlie Nickerson",
-    "email": "charlie@example.com",
-    "phone": "+1-703-463-0038",
+    "displayName": "Eric Stratton",
+    "email": "eric@ahouse.com",
+    "phone": "+1-703-555-1212",
     "organization": "Tech Corp"
   }
 ]
@@ -411,8 +411,8 @@ const matches = connections
 
 ### 7. Return to Claude
 ```
-Found 1 contact matching "Charlie":
-- Charlie Nickerson (charlie@example.com, +1-703-463-0038)
+Found 1 contact matching "Eric":
+- Eric Stratton (eric@ahouse.com, +1-703-555-1212)
 ```
 
 📸 **DIAGRAM NEEDED: `docs/images/architecture/05-complete-flow.png`**

@@ -1,6 +1,6 @@
 # Google Contacts MCP Server
 
-> "I had 750 contacts. Many were from 2005 Iraq deployments, defunct taxi services, and people I'd never contact again. This MCP server helped me clean it down to 297 relevant contacts in one afternoon." - Chris Spirito
+> "My two requirements were, interface via MCP to my Google Contacts for ease of adding/updating contacts,and perform some curation on my contact list. I had 750 contacts from all the way back to the early 2000's. These included defunct taxi services, and people I'd never contact again. This MCP server helped me clean it down to 297 relevant contacts in one afternoon." - Chris Spirito
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that integrates Google Contacts with Claude, enabling contact management directly from your AI assistant.
 
